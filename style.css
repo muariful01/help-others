@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+/*-- first section start  ---*/
+.first-sec{
+  background:
+  linear-gradient(to top, rgba(0,0,0,1) 10%,rgba(255,255,255,0) 100%), url(images/donation2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 670px;
+  width:100%;
+}
+
+
+.header-text{
+  width: 1440px;
+  height: 670px;
+  margin:
+  auto;
+}
+.heading{
+  font-size: 54px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 175px;
+  margin:
+  auto;
+  width: 790px;
+}
+.paragraph{
+  font-size: 14px;
+  color:#fff;
+  width: 595px;
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.btn{
+  background-color: #FF5733;
+  width: 146px;
+  color:#fff;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 11px 1px;
+  margin: auto;
+  cursor: pointer;
+  transition: ease 0.6s;
+}
+.btn a{
+  text-decoration: none;
+  color:#fff;
+  transition: ease 0.6s;
+}
+.btn:hover{
+  background-color: #fff;
+  color:#000;
+  border:2px solid #FF5733;
+}
+.btn:hover a{
+  color:#000;
+}
+/*-- first section End  ---*/
+
+
+/*-- Second section start  ---*/
+.second-sec {
+  width: 1440px;
+  height: 670px;
+  margin: auto;
+}
+
+
+.heading-style {
+  width: 100%;
+}
+
+.heading-one {
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 137px;
+}
+
+.paragraph-style {
+  font-size: 16px;
+  width: 674px;
+  text-align: center;
+  margin: auto;
+  padding-top: 36px;
+  color: #7c7c7c;
+  font-weight: 500;
+}
+
+.amount {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.box {
+  width: 150px;
+  height: 110px;
+  background-color: #bdafaf21;
+  border-radius: 3px;
+}
+.box p {
+  font-size: 30px;
+  font-weight: 800;
+  color: #4a4848d6;
+  padding: 36px 33px;
+}
+.box .edit {
+  padding: 37px 20px;
+}
+.b-2 {
+  background-color: #ff57331f;
+  border: 3px solid #FF5733;
+}
+
+.b-2 p {
+  color: #FF5733;
+}
+.simple-section {
+  width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.simple-section p {
+  text-align: center;
+  color: #ababab;
+  padding-bottom: 26px;
+}
+
+.border-line {
+  border-top: 1px solid #dbdbdb;
+}
+/*-- Second section End  ---*/ 
+
+
+/*-- third section  start  ---*/ 
+.third-sec {
+  width: 1440px;
+  height: 670px;
+  margin: auto;
+}
+
+.donate-plan {
+  width: 1200px;
+  height: 600px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.list-one {
+  width: 388px;
+  height: 283px;
+  background-color: #61b7af26;
+  text-align: left;
+  border-radius: 9px;
+}
+
+.list-one h3 {
+  font-size: 22px;
+  margin: 26px 0 0 16px;
+}
+
+.list-one img {
+  margin: 42px 0 0 20px;
+}
+
+.list-one p {
+  font-size: 15px;
+  padding: 20px;
+  color: #5e5e5e;
+  margin: 5px 11px 0px -3px;
+}
+.tow {
+  background-color: #ffc0cb33;
+}
+.three {
+  background-color: #ff810026;
+}
+/*-- third section  End  ---*/ 
+
+
+
+/*-- four section  start  ---*/ 
+.some-imgs {
+  width: 1150px;
+  height: 512px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.images {
+  width: 275px;
+  height: 232px;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.p-edit {
+  padding-bottom: 60px;
+}
+/*-- four section  End  ---*/
+
+
+/*-- five section  start  ---*/
+
+.five-sec {
+  width: 1440px;
+  height: 670px;
+  padding-bottom: 57px;
+  margin: auto;
+
+}
+.form-sec {
+  width: 729px;
+  height: 189px;
+  background: #df9c6d;
+  margin: auto;
+}
+.some-edit{
+  padding-bottom: 50px;
+}
+.form-sec input {
+  /* left: 56px; */
+  /* position: absolute; */
+  /* top: 50px; */
+  width: 337px;
+  height: 48px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 66px 0 0 112px;
+}
+.form-sec input::placeholder {
+  margin-left: 20px;
+}
+
+.form-sec p {
+  width: 96px;
+  height: 35px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #FF5733;
+  margin: -48px 0 0 448px;
+  padding: 13px 0px 1px 13px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+/*-- five section  End  ---*/
+
+
+
+
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  background: #000;
+  height: 200px;
+}
+
+.footer h3 {
+  text-align: center;
+  color: #f77a90;
+  font-size: 77px;
+  font-weight: bold;
+  padding-top: 41px;
+  font-family: 'The Nautigal', cursive;
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+}
